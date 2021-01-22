@@ -1,0 +1,16 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .text {
+  width: 50%;
+  margin: auto;
+}
+
+.header img {
+  width: 50vw;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */

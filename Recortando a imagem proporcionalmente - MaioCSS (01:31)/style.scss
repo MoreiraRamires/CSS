@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  .text{
+    width: 50%;
+    margin: auto;
+
+  }
+
+  img{
+    width: 50vw;
+    height: auto;
+    // object-fit: cover;
+  }
+}

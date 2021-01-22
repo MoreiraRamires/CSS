@@ -1,0 +1,40 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr  1fr ;
+  grid-template-areas: 
+  "cabecalho cabecalho cabecalho cabecalho cabecalho cabecalho cabecalho"
+  "sidebar-esq . conteudo conteudo conteudo . sidebar-dir"
+  "rodape rodape rodape rodape rodape rodape rodape";
+}
+
+
+.cx-1 {
+  grid-area: cabecalho;
+  background-color: blue;
+}
+.cx-2 {
+  grid-area: sidebar-esq;
+
+  background-color: pink;
+
+}
+.cx-3 {
+  grid-area: conteudo;
+
+  background-color: black;
+}
+.cx-4 {
+  grid-area: sidebar-dir;
+
+  background-color: purple;
+}
+.cx-5 {
+  grid-area: rodape;
+}
